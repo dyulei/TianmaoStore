@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1A0813192348460018801B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A0812192348460018801B /* Foundation.framework */; };
+		DB1A0815192348460018801B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A0814192348460018801B /* CoreGraphics.framework */; };
+		DB1A0817192348460018801B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A0816192348460018801B /* UIKit.framework */; };
+		DB1A081D192348460018801B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB1A081B192348460018801B /* InfoPlist.strings */; };
+		DB1A081F192348460018801B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A081E192348460018801B /* main.m */; };
+		DB1A0823192348460018801B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A0822192348460018801B /* AppDelegate.m */; };
+		DB1A0825192348460018801B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1A0824192348460018801B /* Images.xcassets */; };
+		DB1A082C192348470018801B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A082B192348460018801B /* XCTest.framework */; };
+		DB1A082D192348470018801B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A0812192348460018801B /* Foundation.framework */; };
+		DB1A082E192348470018801B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A0816192348460018801B /* UIKit.framework */; };
+		DB1A0836192348470018801B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB1A0834192348470018801B /* InfoPlist.strings */; };
+		DB1A0838192348470018801B /* BirthDay_softTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A0837192348470018801B /* BirthDay_softTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB1A082F192348470018801B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1A0807192348460018801B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1A080E192348460018801B;
+			remoteInfo = BirthDay_soft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB1A080F192348460018801B /* BirthDay_soft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthDay_soft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1A0812192348460018801B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB1A0814192348460018801B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB1A0816192348460018801B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB1A081A192348460018801B /* BirthDay_soft-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BirthDay_soft-Info.plist"; sourceTree = "<group>"; };
+		DB1A081C192348460018801B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB1A081E192348460018801B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB1A0820192348460018801B /* BirthDay_soft-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BirthDay_soft-Prefix.pch"; sourceTree = "<group>"; };
+		DB1A0821192348460018801B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB1A0822192348460018801B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB1A0824192348460018801B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB1A082A192348460018801B /* BirthDay_softTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthDay_softTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1A082B192348460018801B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB1A0833192348470018801B /* BirthDay_softTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BirthDay_softTests-Info.plist"; sourceTree = "<group>"; };
+		DB1A0835192348470018801B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB1A0837192348470018801B /* BirthDay_softTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthDay_softTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1A080C192348460018801B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A0815192348460018801B /* CoreGraphics.framework in Frameworks */,
+				DB1A0817192348460018801B /* UIKit.framework in Frameworks */,
+				DB1A0813192348460018801B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1A0827192348460018801B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A082C192348470018801B /* XCTest.framework in Frameworks */,
+				DB1A082E192348470018801B /* UIKit.framework in Frameworks */,
+				DB1A082D192348470018801B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1A0806192348460018801B = {
+			isa = PBXGroup;
+			children = (
+				DB1A0818192348460018801B /* BirthDay_soft */,
+				DB1A0831192348470018801B /* BirthDay_softTests */,
+				DB1A0811192348460018801B /* Frameworks */,
+				DB1A0810192348460018801B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1A0810192348460018801B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A080F192348460018801B /* BirthDay_soft.app */,
+				DB1A082A192348460018801B /* BirthDay_softTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1A0811192348460018801B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A0812192348460018801B /* Foundation.framework */,
+				DB1A0814192348460018801B /* CoreGraphics.framework */,
+				DB1A0816192348460018801B /* UIKit.framework */,
+				DB1A082B192348460018801B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB1A0818192348460018801B /* BirthDay_soft */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A0821192348460018801B /* AppDelegate.h */,
+				DB1A0822192348460018801B /* AppDelegate.m */,
+				DB1A0824192348460018801B /* Images.xcassets */,
+				DB1A0819192348460018801B /* Supporting Files */,
+			);
+			path = BirthDay_soft;
+			sourceTree = "<group>";
+		};
+		DB1A0819192348460018801B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A081A192348460018801B /* BirthDay_soft-Info.plist */,
+				DB1A081B192348460018801B /* InfoPlist.strings */,
+				DB1A081E192348460018801B /* main.m */,
+				DB1A0820192348460018801B /* BirthDay_soft-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB1A0831192348470018801B /* BirthDay_softTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A0837192348470018801B /* BirthDay_softTests.m */,
+				DB1A0832192348470018801B /* Supporting Files */,
+			);
+			path = BirthDay_softTests;
+			sourceTree = "<group>";
+		};
+		DB1A0832192348470018801B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A0833192348470018801B /* BirthDay_softTests-Info.plist */,
+				DB1A0834192348470018801B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1A080E192348460018801B /* BirthDay_soft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1A083B192348470018801B /* Build configuration list for PBXNativeTarget "BirthDay_soft" */;
+			buildPhases = (
+				DB1A080B192348460018801B /* Sources */,
+				DB1A080C192348460018801B /* Frameworks */,
+				DB1A080D192348460018801B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirthDay_soft;
+			productName = BirthDay_soft;
+			productReference = DB1A080F192348460018801B /* BirthDay_soft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB1A0829192348460018801B /* BirthDay_softTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1A083E192348470018801B /* Build configuration list for PBXNativeTarget "BirthDay_softTests" */;
+			buildPhases = (
+				DB1A0826192348460018801B /* Sources */,
+				DB1A0827192348460018801B /* Frameworks */,
+				DB1A0828192348460018801B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1A0830192348470018801B /* PBXTargetDependency */,
+			);
+			name = BirthDay_softTests;
+			productName = BirthDay_softTests;
+			productReference = DB1A082A192348460018801B /* BirthDay_softTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1A0807192348460018801B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___DuanYuLei___";
+				TargetAttributes = {
+					DB1A0829192348460018801B = {
+						TestTargetID = DB1A080E192348460018801B;
+					};
+				};
+			};
+			buildConfigurationList = DB1A080A192348460018801B /* Build configuration list for PBXProject "BirthDay_soft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB1A0806192348460018801B;
+			productRefGroup = DB1A0810192348460018801B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1A080E192348460018801B /* BirthDay_soft */,
+				DB1A0829192348460018801B /* BirthDay_softTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1A080D192348460018801B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A081D192348460018801B /* InfoPlist.strings in Resources */,
+				DB1A0825192348460018801B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1A0828192348460018801B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A0836192348470018801B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1A080B192348460018801B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A0823192348460018801B /* AppDelegate.m in Sources */,
+				DB1A081F192348460018801B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1A0826192348460018801B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A0838192348470018801B /* BirthDay_softTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB1A0830192348470018801B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1A080E192348460018801B /* BirthDay_soft */;
+			targetProxy = DB1A082F192348470018801B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB1A081B192348460018801B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1A081C192348460018801B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB1A0834192348470018801B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1A0835192348470018801B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1A0839192348470018801B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB1A083A192348470018801B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1A083C192348470018801B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BirthDay_soft/BirthDay_soft-Prefix.pch";
+				INFOPLIST_FILE = "BirthDay_soft/BirthDay_soft-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB1A083D192348470018801B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BirthDay_soft/BirthDay_soft-Prefix.pch";
+				INFOPLIST_FILE = "BirthDay_soft/BirthDay_soft-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB1A083F192348470018801B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BirthDay_soft.app/BirthDay_soft";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BirthDay_soft/BirthDay_soft-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BirthDay_softTests/BirthDay_softTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB1A0840192348470018801B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BirthDay_soft.app/BirthDay_soft";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BirthDay_soft/BirthDay_soft-Prefix.pch";
+				INFOPLIST_FILE = "BirthDay_softTests/BirthDay_softTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1A080A192348460018801B /* Build configuration list for PBXProject "BirthDay_soft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A0839192348470018801B /* Debug */,
+				DB1A083A192348470018801B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1A083B192348470018801B /* Build configuration list for PBXNativeTarget "BirthDay_soft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A083C192348470018801B /* Debug */,
+				DB1A083D192348470018801B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB1A083E192348470018801B /* Build configuration list for PBXNativeTarget "BirthDay_softTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A083F192348470018801B /* Debug */,
+				DB1A0840192348470018801B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1A0807192348460018801B /* Project object */;
+}
