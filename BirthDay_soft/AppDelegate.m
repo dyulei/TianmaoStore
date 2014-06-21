@@ -7,16 +7,55 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
+#import "FocusViewController.h"
+#import "FunViewController.h"
+#import "BuyCarViewController.h"
+#import "MeViewController.h"
+#import "Custom_tabbar.h"
 
-@implementation AppDelegate
+@implementation AppDelegate{
+    UITabBarController *tabbar;
+    Custom_tabbar *customTabbar;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    tabbar = [[UITabBarController alloc] init];
+    
+    RootViewController *root = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
+    FocusViewController *focus = [[FocusViewController alloc] initWithNibName:@"FocusViewController" bundle:nil];
+    FunViewController *fun = [[FunViewController alloc] initWithNibName:@"FunViewController" bundle:nil];
+    BuyCarViewController *buy = [[BuyCarViewController alloc] initWithNibName:@"BuyCarViewController" bundle:nil];
+    MeViewController *me = [[MeViewController alloc] initWithNibName:@"MeViewController" bundle:nil];
+    UINavigationController *nav_1 = [[UINavigationController alloc] initWithRootViewController:root];
+    UINavigationController *nav_2 = [[UINavigationController alloc] initWithRootViewController:focus];
+    UINavigationController *nav_3 = [[UINavigationController alloc] initWithRootViewController:fun];
+    UINavigationController *nav_4 = [[UINavigationController alloc] initWithRootViewController:buy];
+    UINavigationController *nav_5 = [[UINavigationController alloc] initWithRootViewController:me];
+    
+    tabbar.viewControllers = @[nav_1, nav_2, nav_3, nav_4, nav_5];
+    self.window.backgroundColor = [UIColor colorWithWhite:1 alpha:0.95];
+    
+    [self customTabbar];
+    int index = [[NSUserDefaults standardUserDefaults] integerForKey:@"TabIndex"];
+    tabbar.selectedIndex = index;
+    [customTabbar setSelectIndex:index];
+    
+    self.window.rootViewController = tabbar;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+-(void)customTabbar{
+    //tabbar.tabBar.hidden = YES;
+    customTabbar = [[NSBundle mainBundle] loadNibNamed:@"Custom_tabbar" owner:self options:nil][0];
+    customTabbar.tabbarController = tabbar;
+    customTabbar.frame = CGRectMake(0, self.window.bounds.size.height-49, 320, 49);
+    [tabbar.view addSubview:customTabbar];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
